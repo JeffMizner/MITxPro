@@ -1,0 +1,12 @@
+Times Tables
+<script>
+var grid = "";
+for (var row = 1; row <= 10; row++){
+    for (var column = 1; column <= 10; column++){
+        var n = row*column;
+        grid += ' '.repeat(4-String(n).length) + n;
+        }
+    grid += "\n";
+}
+console.log(grid);
+</script>

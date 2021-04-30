@@ -1,0 +1,13 @@
+Tables Exercise
+<script>
+    var grid = [];
+
+    for(var column = 1; column <= 10; column++){
+        grid.push([]);
+        for (var row = 1; row <= 10; row++){
+            grid[column - 1].push(column*row);
+        }
+    }
+    console.log(grid);
+
+</script>
